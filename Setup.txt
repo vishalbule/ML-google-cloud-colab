@@ -1,0 +1,25 @@
+colab connect to your local machine
+-----------------------------------------
+
+python -m pip install --upgrade jupyter_http_over_ws>=0.0.1a3 && jupyter serverextension enable --py jupyter_http_over_ws
+
+jupyter notebook --NotebookApp.allow_origin='https://colab.research.google.com' --port=8889 --NotebookApp.port_retries=0
+
+window system command 
+-----------------------------------
+
+python -m pip install --upgrade pip
+
+
+python -m pip install tensorflow
+
+python -m pip install functools
+
+Environment variable
+---------------------
+
+C:\Users\vishal\AppData\Local\Continuum\anaconda3\Library\bin 
+
+C:\Users\vishal\AppData\Local\
+
+C:\Users\vishal\Anaconda3\Script
